@@ -1,0 +1,11 @@
+framework module IBACore {
+  umbrella header "Framework-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module IBACore.Swift {
+    header "IBACore-Swift.h"
+    requires objc
+}
